@@ -1,0 +1,58 @@
+body {
+    font: normal 15pt;
+    background-color: rgb(102, 188, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #1877f2; /* Cor azul do Facebook */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #1877f2; /* Cor azul do Facebook */
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #146eb4; /* Cor mais escura ao passar o mouse */
+}
+
+#res {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+u {
+    color: #1877f2; /* Cor azul do Facebook */
+    cursor: pointer;
+}
+
+u:hover {
+    text-decoration: underline;
+}
